@@ -1,0 +1,10 @@
+fopen(): To open the file
+fgetc(): Reads the character from the current pointer position
+fgetc() Returns a macro EOF once all the characters have been read and we attempt to read one more character
+fgetc() = macro getc()
+fclose(): To close the file
+fputc(): To write characters in the file
+putch(): Writes to VDU
+fputs(): To write strings to a file
+fgets(): Takes 3 parameters; 1st:Address where the string is stored, 2nd:Maximum length of string, 3rd:Pointer to structure FILE
+fprintf(): Print content in file
