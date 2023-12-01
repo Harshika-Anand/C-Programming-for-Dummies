@@ -5,7 +5,7 @@ int main()
 {
 	FILE *fp;
 	char s[80];
-	fp=fopen("POEM.txt","w");
+	fp=fopen("POEM.txt","w");  //to not overwrite any existing code in the file, open it in the append (a) mode
 	if(fp==NULL)
 	{
 		printf("Cannot Open File");
